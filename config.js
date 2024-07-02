@@ -3971,7 +3971,7 @@
 
 
 
-constt fs = require('fs')
+const fs = require('fs')
 const chalk = require('chalk')
 
 // ganti info bot dibawah ini
@@ -3980,7 +3980,7 @@ global.ownerName = "Hytam" // NAMA OWN
 global.ownerBot = "6283803489747" // NO OWN
 global.ownerNumber = ["62858928324766"] // OWN
 
-global.Auto_Typing = false // auto typing
+global.Auto_Typing = true // auto typing
 global.Auto_Recording = false // auto recording
 global.Auto_ReadPesan = false // auto read messages
 
